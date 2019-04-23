@@ -1,9 +1,15 @@
 'use strict';
 
-module.exports = (input, options = {}) => {
-	if (typeof input !== 'string') {
-		throw new TypeError(`Expected a string, got ${typeof input}`);
+module.exports = (firstNr, secondNr) => {
+	if (typeof firstNr !== 'number') {
+		throw new TypeError(`Expected a number, got ${typeof firstNr}`);
 	}
 
-	return input + ' & ' + (options.postfix || 'rainbows');
+	if (typeof secondNr !== 'number') {
+		throw new TypeError(`Expected a number, got ${typeof secondNr}`);
+	}
+
+	const percentageDiff = (secondNr - firstNr) / firstNr * 100;
+
+	return Number(percentageDiff.toFixed(2));
 };

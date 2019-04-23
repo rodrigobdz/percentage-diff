@@ -16,5 +16,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[unreleased]: https://github.com/rodrigobdz/percentage-diff/compare
-<!-- Example: https://github.com/rodrigobdz/percentage-diff/compare/v1.0.0...HEAD -->
+## [1.0.0] - 2019-04-24
+
+### Added
+
+- Calculate percentage difference between two numbers.
+
+[unreleased]: https://github.com/rodrigobdz/percentage-diff/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/rodrigobdz/percentage-diff/compare/839407f777811173c2bbb62af850e3fc6ee07ebf...v1.0.0

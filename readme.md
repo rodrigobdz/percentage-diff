@@ -13,30 +13,23 @@ $ npm install percentage-diff
 ```js
 const percentageDiff = require('percentage-diff');
 
-percentageDiff('unicorns');
-//=> 'unicorns & rainbows'
+percentageDiff(50, 75);
+//=> 50%
+percentageDiff(45,35);
+//=> -22.22%
 ```
 
 ## API
 
-### percentageDiff(input, [options])
+### percentageDiff(firstNr, secondNr)
 
-#### input
+#### firstNr
 
-Type: `string`
+Type: `number`
 
-Lorem ipsum.
+#### secondNr
 
-#### options
-
-Type: `Object`
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
+Type: `number`
 
 ## Credits
 
