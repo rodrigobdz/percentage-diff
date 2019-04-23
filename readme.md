@@ -14,9 +14,11 @@ $ npm install percentage-diff
 const percentageDiff = require('percentage-diff');
 
 percentageDiff(50, 75);
+//=> 50
+percentageDiff.toPercentage(50);
 //=> 50%
 percentageDiff(45,35);
-//=> -22.22%
+//=> -22.22
 ```
 
 ## API
@@ -28,6 +30,12 @@ percentageDiff(45,35);
 Type: `number`
 
 #### secondNr
+
+Type: `number`
+
+### percentageDiff.toPercentage(value)
+
+#### value
 
 Type: `number`
 

@@ -34,3 +34,7 @@ test('Handles zero division', t => {
 	t.is(percentageDiff(0, 0), NaN);
 	t.is(percentageDiff(0, 2), Infinity);
 });
+
+test('Format as percentage', t => {
+	t.is(percentageDiff.toPercentage(50), '50%');
+});
