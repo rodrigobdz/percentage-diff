@@ -1,6 +1,6 @@
 {
 	"name": "percentage-diff",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Calculate percentage difference between two numbers",
 	"license": "MIT",
 	"repository": "rodrigobdz/percentage-diff",
